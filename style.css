@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background-color: #3d3df7;
+}
+
+.header__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.main-menu, .cards-section {
+    margin-top: 15px;
+}
+
+.main-menu__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu__list__item {
+    padding: 0 7px;
+}
+
+.main-menu__link {
+    text-decoration: none;
+    color: #222;
+}
+
+.main-menu__link:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+.main-menu__link--disabled {
+    pointer-events: none;
+    color: #999;
+}
+
+.cards-section {
+    background-color: #f0eded;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.card__title {
+    font-size: 22px;
+}
+
+.card__image {
+    width: 50px;
+}
+
+.card__button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0;
+    background-color: #3d3df7;
+    color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card__button:hover {
+    background-color: #3d3df789;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #3d3df7;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
